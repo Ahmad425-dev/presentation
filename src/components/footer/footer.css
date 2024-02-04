@@ -1,0 +1,16 @@
+.foot{
+    width: 100vw;
+  
+    background-color: rgb(40, 40, 40);
+margin-top: 2rem;
+bottom: -4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.title{
+    font-size: small;
+    font-weight: 300;
+    color: white;
+}

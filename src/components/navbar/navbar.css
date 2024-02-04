@@ -1,0 +1,92 @@
+.navbar{
+ 
+    height: 5rem;
+    width: 100vw;
+   background-color: rgb(50, 50, 50);
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+   
+}
+.desktopMenuListItem{
+   margin:2rem;
+   cursor: pointer;
+ 
+
+
+}
+.desktopMenuListItem:hover{
+    color: yellow;
+    border-bottom: 3px solid yellow;
+    padding-bottom: 0.5rem;
+
+    
+}
+.acttive{
+    color: yellow;
+    border-bottom: 3px solid yellow;
+    padding-bottom: 0.5rem;
+
+}
+.desktopbutton{
+    background-color: white;
+    color: black;
+    border: none;
+    display: flex;
+    justify-content: center ; 
+    align-items: center;  
+    padding: 0 2rem;
+    border-radius: 2rem;
+    padding-left: 0;
+}
+
+.desktopimg{
+    object-fit:cover;
+    height: 1rem;
+    width: 0.1rem;
+    margin:1rem;
+}
+
+@media screen and (max-width:390){
+.navbar{
+    display: flex;
+}
+.desktopMenuListItem{
+    margin:2rem;
+    cursor: pointer;
+ }
+}
+/*mobmenu*/
+.mobmenu{
+position: absolute;    
+top: 3rem;
+right: 1rem;
+display: flex;
+flex-direction: column;
+margin: 2rem 0rem;
+
+
+}
+.llogo{
+    display: none;
+    font-weight: 600;
+    font-size: 2rem;
+
+}
+.ddesktopMenuListItem{
+    padding: 1rem 1rem;
+
+}
+@media screen and (max-width:700px){
+    .llogo{
+        display: flex ;
+    }
+    .desktopmenu{
+        display: none;
+    }
+    .desktopbutton{
+        display: none;
+    }
+}
